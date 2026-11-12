@@ -188,12 +188,15 @@ footer {
       margin-left: 0;
     letter-spacing: 1px;
     text-align: center;
+  }
   .profil {
     width: 100%;
-    font-size: 1.2rem;
+    max-width: 100%;
     margin-left: 0;
-    left: auto;
-    max-width:100%
+      left: auto;
+     font-size: 1rem;
+    padding: 15px;
+    
   }
   #donnees {
     font-size: 1rem;
