@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@font-face {
+  font-family: "DMSerifDisplay";
+  src: url("./fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: url(./img/background-cv.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "DMSerifDisplay", serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+  padding: 20px 30px;
+}
+
+header img {
+  display: block;
+  margin: 45px auto;
+  width: 300px;
+  max-width: 100%;
+  height: 300px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h1 {
+  background-color: rgba(154, 230, 164, 0.239);
+  margin-left: 30px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: right;
+  font-size: 5rem;
+  text-shadow: 8px 6px 6px rgba(33, 35, 36, 0.905);
+  color: rgb(219, 213, 224);
+  font-family: oswald, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+h2 {
+  margin: 32px;
+}
+
+#donnees {
+  border: 3px solid rgb(95, 84, 90);
+  border-radius: 20px;
+  width: calc(100%+100px);
+  max-width: none;
+  transform: translateX(_100px);
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 15px cyan;
+  background-color: rgba(31, 188, 154, 0.452);
+  color: black;
+  font-family: oswald, sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  overflow-wrap: anywhere;
+}
+
+.contact {
+  min-height: 500px;
+  width: 90%;
+  background: rgba(238, 54, 198, 0.418);
+  margin: 0 auto;
+  border: 3px solid rgb(175, 15, 135);
+  border-radius: 20px;
+  box-shadow: -1px -9px 16px 10px rgba(47, 177, 123, 0.705);
+  padding: 20px;
+}
+
+.profil {
+  font-size: 1.4rem;
+  background: rgba(4, 1, 34, 0.87);
+  color: antiquewhite;
+  border-radius: 25px;
+  width: 70vw;
+  max-width: none;
+  margin-left: 220px;
+  margin-right: 0;
+  padding: 10px;
+  position: relative;
+  left: calc(100%-80vw);
+}
+
+section {
+  border: 2px solid rgb(214, 200, 200);
+  border-radius: 15% 0% 15% 0%;
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 15px;
+  background-color: rgba(35, 35, 37, 0.527);
+  color: rgb(216, 200, 215);
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  width: 130px;
+  height: auto;
+}
+
+.competences {
+  width: 70%;
+  margin: 0;
+}
+
+.competences img {
+  width: 30%;
+  height: auto;
+}
+
+.hobbies ul {
+  flex: 1;
+}
+
+.hobbies-contenu {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  gap: 20px;
+}
+
+.hobbies-contenu img {
+  position: relative;
+  top: -50px;
+  /* augmente pour monter */
+  width: 160px;
+  height: auto;
+  flex-shrink: 0;
+  object-fit: contain;
+  margin-right: 100px;
+}
+
+.flexbox {
+  margin-left: auto;
+  width: 60%;
+  height: auto;
+  border-radius: 20%;
+  /* background-color: rgba(245, 245, 220, 0.479); */
+}
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .flexbox {
+    flex-direction: column;
+  }
+
+  section {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .profil {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  #donnees {
+    font-size: 1rem;
+  }
+  header img {
+    width: 180px;
+    height: 180px;
+  }
+}
