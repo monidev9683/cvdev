@@ -241,7 +241,7 @@ footer {
    }
    
    h1 {
-     color: red !important;
+     
      font-size: 20pt;
      margin: 0;
      letter-spacing: 1px;
@@ -250,16 +250,17 @@ footer {
      color: #222;
    }
    h2 { 
-     font-size: 13pt;
      margin: 5px;
    }
    #donnees {
-     width: 100px;
+     width: 100%;
+     max-widht: 100%;
      margin: 5px 0;
      padding: 5px;
      transform: none;
      font-size: 10pt;
      box-shadow: none;
+     height: auto;
    }
 
    .contact {
@@ -270,10 +271,13 @@ footer {
    }
 
    .profil {
-     width: 100%
+     width: 100%;
+       max-width: 100%;
        margin: 5px 0;
-     font-size: 10pt;
      padding: 8px;
+     position: static;
+     font-size: 10pt;
+     heigth: auto;
    }
              
     .flexbox {
