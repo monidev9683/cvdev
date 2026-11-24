@@ -241,7 +241,7 @@ footer {
    }
    
    h1 {
-     color: red;
+     color: red !important;
      font-size: 20pt;
      margin: 0;
      letter-spacing: 1px;
