@@ -216,7 +216,7 @@ footer {
     gap: 15px 
   }
   .logo img {
-    widht: 65px
+    widht: 65px;
     height: auto;
   }
 }
@@ -241,6 +241,7 @@ footer {
    }
    
    h1 {
+     color: red;
      font-size: 20pt;
      margin: 0;
      letter-spacing: 1px;
