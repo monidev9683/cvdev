@@ -277,13 +277,13 @@ footer {
      padding: 8px;
      position: static;
      font-size: 10pt;
-     heigth: auto;
+     height: auto;
    }
              
     .flexbox {
     width: 100%;
       margin: 0;
-      heigth: auto;
+      height: auto;
    }
    section {
      width: 100%;
@@ -324,6 +324,8 @@ footer {
      height: 25px;
      padding: 3px;
    }
+   section, .profil, .contact, #donnees {
+     border-radius: 0;
  }
  
  
